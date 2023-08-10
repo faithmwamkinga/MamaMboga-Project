@@ -1,0 +1,57 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+form{
+    border: solid 1px;
+    margin-left: 30%;
+    width: 38vw;
+    height: 90vh;
+}
+form input{
+    height: 8vh;
+    width: 20vw;
+    margin-left: 3%;
+
+}
+form p{
+    font-size: 20px;
+    margin-left: 7%;
+    
+}
+.upload-form textarea{
+    width: 42%;
+    padding: 30px;
+    margin-bottom: 15px;
+    border: solid 1px;
+    border-radius: 3px;
+    font-size: 25px;
+    margin-left: 0%;
+
+
+
+}
+.upload-form textarea{
+    resize: vertical;
+}
+button{
+    width: 10vw;
+    height: 7vh;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color:rgb(240, 240, 173);
+    border: none;
+    margin-top: 3%;
+    transition: transform .2s;
+}
+button p{
+    font-size: 30px;
+}
+button:hover{
+    transform: scale(1.5);
+}

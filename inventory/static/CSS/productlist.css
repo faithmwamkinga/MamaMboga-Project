@@ -1,0 +1,19 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+td{
+    font-weight: 500;
+    font-size: 30px;
+    padding: 10px;
+    border: solid 1px;
+}
+th td{
+    font-weight: 500;
+    font-size: 30px;
+    padding: 10px;
+    border: solid 1px; 
+}
+.details{
+    text-decoration: none;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3 class="upload-heading">Mama mboga Upload Form </h3>
+    <form action="" method="POST", class="upload-form" enctype="multipart/form-data">
+        {% csrf_token%} {{form.as_p}} 
+        <button type="submit">Save</button>
+    </form>
+
+    
+    <!-- <form action="">
+        <table class="mamamboga">
+            <th class="heading">
+                <td class="head">Name</td>
+                <td class="">Email</td>
+                <td class="head">Phone number</td>
+                <td class="head">Password</td>
+
+            </th>
+
+            <td></td>
+
+        </table>
+    </form> -->
+</body>
+</html>
