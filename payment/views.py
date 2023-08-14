@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from payment.models import Payment
 from django.shortcuts import redirect
-from .forms import UploadPaymentForms
+from .forms import UploadPaymentForm
 
 # Create your views here.
 
@@ -10,6 +10,6 @@ def uploadpayment(request):
         if form.is_valid():
             form.save()
     else:
-        form = UploadPaymentForms()
+        form = UploadPaymentForm()
         return render(request,"payment/paymentupload.html",{"form":form})
 

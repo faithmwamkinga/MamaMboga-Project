@@ -7,9 +7,12 @@ from .forms import UploadShipmentForm
 
 def upload_shipment(request):
     if request.method=="POST":
-        if form.is_valid()
-        form.save()
+        if form.is_valid():
+            form.save()
     else:
         form=UploadShipmentForm
-        return render(request,"shipping/shipmentupload.html",{"form":form})
+        return render(request,"shipmping/shipmentupload.html",{"form":form})
+
+
+
 

@@ -1,7 +1,7 @@
 from django import forms
-from models import Shipping
+from .models import Shipping
 
-class UploadShipmentForm(model.ModelForm):
-    model = shipmping
+class UploadShipmentForm(forms.ModelForm):
     class Meta:
-        field = "__all__"
+        model = Shipping
+        fields = "__all__"

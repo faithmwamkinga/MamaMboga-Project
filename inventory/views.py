@@ -25,6 +25,10 @@ def add_to_cart(request):
     cartitems=[]
     return render(request, "inventory/add_to_cart.html", {"cartitems":cartitems})
 
+def cart_list(request):
+    cart=Products.objects.all()
+    return render(request,"inventory/cartlist.html",{"cart":cartlists})
+
 def edit_product_view(request,id):
     product=Products.objects.get(id=id)
     if request.method=='POST':

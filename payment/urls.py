@@ -3,5 +3,5 @@ from .views import uploadpayment
 from django.conf import settings
 
 urlpatterns=[
-    path("payment/payment",upload_payment,name="payment_upload_view")
+    path("payment/upload",uploadpayment,name="payment_upload_view")
 ]
